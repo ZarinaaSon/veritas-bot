@@ -449,7 +449,7 @@ def get_directions_kb() -> InlineKeyboardMarkup:
             [InlineKeyboardButton(text="Репетитор по английскому языку", callback_data="dir_rep_en")],
             [InlineKeyboardButton(text="Ведущий Speaking Club", callback_data="dir_speaking")],
             [InlineKeyboardButton(text="Тьютор по математике в группе", callback_data="dir_tutor_math")],
-            [InlineKeyboardButton(text="Администратор", callback_data="dir_admin")
+            [InlineKeyboardButton(text="Администратор", callback_data="dir_admin")],
             [InlineKeyboardButton(text="Репетитор по математике (5-11 классы)", callback_data="dir_rep_math")]
         ]
     )
