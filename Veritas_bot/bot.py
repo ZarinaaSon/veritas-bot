@@ -423,9 +423,7 @@ def format_admin_student(app_code: str, data: Dict[str, Any]) -> str:
         f"{answers.get('q_extra', '')}"
     )
 
-# ==================================================
-# 5. КЛАВИАТУРЫ
-# ==================================================
+
 def get_start_kb() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(
         inline_keyboard=[
